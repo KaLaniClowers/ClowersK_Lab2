@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 42.22222
+    x: 0.8888889
+    y: 48.444447
     width: 1706.6666
     height: 869.7778
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -273,13 +273,13 @@ MonoBehaviour:
     height: 569.3333
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,8 +301,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 42.22222
+    x: 0.8888889
+    y: 48.444447
     width: 1706.6666
     height: 36
   m_SerializedDataModeController:
@@ -623,8 +623,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 647.55554
+    x: 0.8888889
+    y: 653.7778
     width: 1296.3334
     height: 218.44446
   m_SerializedDataModeController:
@@ -742,9 +742,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_rawData: 568105584918856030
+    - m_rawData: 568105589213755204
     m_LastClickedEntityId:
-      m_rawData: 568105584918856030
+      m_rawData: 568105589213755204
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -798,8 +798,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1297.3334
-    y: 78.22222
+    x: 1298.2223
+    y: 84.44444
     width: 408.33325
     height: 787.7778
   m_SerializedDataModeController:
@@ -852,8 +852,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 78.22222
+    x: 0.8888889
+    y: 84.44444
     width: 257.66666
     height: 543.3333
   m_SerializedDataModeController:
@@ -875,11 +875,12 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_rawData: 568105584918856030
+      - m_rawData: 568105589213755204
       m_LastClickedID:
-        m_rawData: 0
+        m_rawData: 568105589213755204
       m_ExpandedIDs:
       - m_rawData: 568105589213756048
+      - m_rawData: 568105584918858230
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -897,7 +898,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootEntityId:
@@ -927,8 +928,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 258.66666
-    y: 78.22222
+    x: 259.55557
+    y: 84.44444
     width: 1036.6667
     height: 543.3333
   m_SerializedDataModeController:
@@ -1419,9 +1420,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.9488659, y: -8.866335, z: -8.009697}
+    m_Target: {x: -10.148545, y: 0.90001285, z: -5.598381}
     speed: 2
-    m_Value: {x: 1.9488659, y: -8.866335, z: -8.009697}
+    m_Value: {x: -10.148545, y: 0.90001285, z: -5.598381}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1468,13 +1469,13 @@ MonoBehaviour:
     m_gridOpacity: 0.482
     m_NearestPlaneToHandleMode: 0
   m_Rotation:
-    m_Target: {x: 0.12023062, y: 0.8797683, z: -0.32519865, w: 0.32526457}
+    m_Target: {x: -0.001972229, y: 0.99143827, z: -0.12968259, w: -0.01507415}
     speed: 2
-    m_Value: {x: 0.12023062, y: 0.8797683, z: -0.32519865, w: 0.32526457}
+    m_Value: {x: -0.0030960578, y: 0.99127114, z: -0.12966073, w: -0.02366595}
   m_Size:
-    m_Target: 13.317083
+    m_Target: 1.4416507
     speed: 2
-    m_Value: 13.317083
+    m_Value: 1.3795701
   m_Ortho:
     m_Target: 0
     speed: 2
